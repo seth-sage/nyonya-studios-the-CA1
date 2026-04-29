@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        print("hi");
+        print("hillll");
         print("I'm jax");
     }
 
