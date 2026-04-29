@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         print("hi");
+        print("I'm jax");
     }
 
     private void Update()
