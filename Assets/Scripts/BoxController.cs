@@ -5,7 +5,7 @@ public class BoxController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        print("Collectible!");
     }
 
     // Update is called once per frame
