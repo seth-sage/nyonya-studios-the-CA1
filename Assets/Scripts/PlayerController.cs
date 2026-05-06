@@ -1,16 +1,18 @@
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{
+{ 
     [Header("Movement")]
     public float moveSpeed = 5.0f;   // <-- Activity 2 prefab conflict target (serialised in prefab)
-    public float jumpForce = 8.0f;
+    private float jumpForce = 8.0f;
 
     private Rigidbody2D rb;
-
+   
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        print("hillll");
+        print("I'm jax");
     }
 
     private void Update()
